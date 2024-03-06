@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+    background-color: #f8f9fa;
+}
+
+#head {
+    background-color: #332461;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+#head-link {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 5px;
+    list-style: none; /* Loại bỏ dấu hiệu danh sách */
+    padding-left: 0; /* Loại bỏ lề trái của danh sách */
+    display: flex;
+    justify-content: center; /* Canh giữa các mục trong danh sách */
+}
+
+#head-link a {
+    padding: 10px;
+    text-decoration: none;
+    color: #332461;
+    margin-right: 10px;
+    transition: background-color 0.3s ease-in-out;
+    border: 1px solid #CDCDCD;
+    border-radius: 5px; /* Bo tròn góc của liên kết */
+    background-color: #fff; /* Màu nền cho liên kết */
+}
+
+#head-link a:hover {
+    background-color: #ddd;
+}
+
+#left,
+#content,
+#right {
+    margin-bottom: 15px;
+    background-color: #fff;
+    border: 1px solid #CDCDCD;
+    padding: 10px;
+}
+
+#footer {
+    height: 50px;
+    border: 1px solid #CDCDCD;
+    background-color: #332461;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+}
